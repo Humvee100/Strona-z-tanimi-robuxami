@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Kitty Power</title>
+  <style>
+    body {
+      background-color: pink;
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .center-gif {
+      max-width: 100%;
+      height: auto;
+      width: 300px;
+      z-index: 1;
+    }
+
+    .corner {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      z-index: 2;
+    }
+
+    .top-left {
+      top: 10px;
+      left: 10px;
+    }
+
+    .top-right {
+      top: 10px;
+      right: 10px;
+    }
+
+    .bottom-left {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    .bottom-right {
+      bottom: 10px;
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Center dancing Hello Kitty -->
+  <img class="center-gif" src="https://cdn.discordapp.com/attachments/1353844014486392854/1364214153958654044/hello_kitty.gif?ex=6808daf0&is=68078970&hm=7572986c6f155445544631daf3e857efe03955718680fb2c22d9dde30c9558ec&" alt="Hello Kitty tańczy">
+
+  <!-- Corner images -->
+  <img class="corner top-left" src="https://cdn.discordapp.com/attachments/1353844014486392854/1364215138214740049/9k.png?ex=6808dbda&is=68078a5a&hm=9f28d99c420b337191d104510843dc6c97f55eec1180f0d34319ba4747cf6f1b&" alt="Hello Kitty róg">
+  <img class="corner top-right" src="https://cdn.discordapp.com/attachments/1353844014486392854/1364215138214740049/9k.png?ex=6808dbda&is=68078a5a&hm=9f28d99c420b337191d104510843dc6c97f55eec1180f0d34319ba4747cf6f1b&" alt="Hello Kitty róg">
+  <img class="corner bottom-left" src="https://cdn.discordapp.com/attachments/1353844014486392854/1364215138214740049/9k.png?ex=6808dbda&is=68078a5a&hm=9f28d99c420b337191d104510843dc6c97f55eec1180f0d34319ba4747cf6f1b&" alt="Hello Kitty róg">
+  <img class="corner bottom-right" src="https://cdn.discordapp.com/attachments/1353844014486392854/1364215138214740049/9k.png?ex=6808dbda&is=68078a5a&hm=9f28d99c420b337191d104510843dc6c97f55eec1180f0d34319ba4747cf6f1b&" alt="Hello Kitty róg">
+</body>
+</html>
